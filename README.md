@@ -40,6 +40,7 @@
   </p>
 </div> -->
 [![LinkedIn][linkedin-shield]][linkedin-url]
+[![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/farvic/spring-boot-template-repo/build_test_action.yml?branch=main&label=tests&logo=github&style=for-the-badge)](https://github.com/farvic/spring-boot-template-repo/actions/workflows/build_test_action.yml)
 
 # Spring-Boot REST API Template
 
@@ -151,6 +152,7 @@ This is a template for a REST API using Spring Boot. It was created to be used a
 * [ ] And more...?
 
 [//]: # (CONTRIBUTING)
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -163,7 +165,6 @@ Don't forget to give the project a star! Thanks again!
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
 
 <!-- CONTACT -->
 ## Contact
