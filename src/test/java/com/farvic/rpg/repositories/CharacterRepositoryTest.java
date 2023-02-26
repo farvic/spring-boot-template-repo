@@ -27,7 +27,7 @@ class CharacterRepositoryTest {
     private CharacterRepository characterRepository;
 
     @Test
-    public void contextLoads() {
+    void contextLoads() {
         assertNotNull(entityManager);
     }
 

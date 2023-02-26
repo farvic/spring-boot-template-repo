@@ -1,6 +1,7 @@
 package com.farvic.rpg.web;
 
 import com.farvic.rpg.domain.Character;
+import com.farvic.rpg.dto.CharacterDto;
 import com.farvic.rpg.service.CharacterService;
 
 
@@ -35,6 +36,9 @@ class CharacterControllerTest {
 
     @MockBean
     private CharacterService characterService;
+
+    @MockBean
+    private CharacterDto characterDto;
     @Autowired
     private MockMvc mockMvc;
     Character character1;
