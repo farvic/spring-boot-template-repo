@@ -5,6 +5,7 @@ import com.farvic.rpg.dto.CharacterDto;
 import com.farvic.rpg.service.CharacterService;
 
 
+import com.farvic.rpg.utils.CharacterDtoMapper;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
@@ -38,7 +39,8 @@ class CharacterControllerTest {
     private CharacterService characterService;
 
     @MockBean
-    private CharacterDto characterDto;
+    private CharacterDtoMapper characterDtoMapper;
+
     @Autowired
     private MockMvc mockMvc;
     Character character1;
